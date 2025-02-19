@@ -1,9 +1,9 @@
-/** @format */
+/** ..format */
 import React from "react";
-import InstagramLogo from "@/../public/instagram/instagram-logo.svg";
-import Heart from "@/../public/instagram/Heart.svg";
-import Add from "@/../public/instagram/Add Icon Filled.svg";
-import Share from "@/../public/instagram/Share.svg";
+import InstagramLogo from "../../public/instagram/instagram-logo.svg";
+import Heart from "../../public/instagram/Heart.svg";
+import Add from "../../public/instagram/Add Icon Filled.svg";
+import Share from "../../public/instagram/Share.svg";
 import Image from "next/image";
 
 export default function NavbarComponent() {

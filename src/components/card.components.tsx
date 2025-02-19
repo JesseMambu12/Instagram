@@ -1,13 +1,13 @@
-/** @format */
+/** ..format */
 
-import { TCard } from "@/interfaces/card.interfaces";
+import { TCard } from "../interfaces/card.interfaces";
 import Image from "next/image";
 import React from "react";
-import Option from "@/../public/instagram/Three dots.svg";
-import Bookmark from "@/../public/instagram/Bookmark.svg";
-import Heart from "@/../public/instagram/Heart.svg";
-import Comment from "@/../public/instagram/Comment.svg";
-import Share from "@/../public/instagram/Share.svg";
+import Option from "../../public/Instagram/Three dots.svg";
+import Bookmark from "../../public/instagram/Bookmark.svg";
+import Heart from "../../public/instagram/Heart.svg";
+import Comment from "../../public/instagram/Comment.svg";
+import Share from "../../public/instagram/Share.svg";
 
 export default function CardComponent(props: TCard) {
   return (
@@ -51,7 +51,7 @@ export default function CardComponent(props: TCard) {
         {/* caption section */}
         <div className="flex">
           <span className="text-left">
-          <b>{props.username}</b> {props.caption}
+            <b>{props.username}</b> {props.caption}
           </span>
         </div>
       </div>
