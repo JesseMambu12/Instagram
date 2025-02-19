@@ -1,7 +1,7 @@
 /** @format */
 
-import CardComponent from "@/components/card.components";
-import { posts } from "@/json/data.json";
+import CardComponent from "../components/card.components";
+import { posts } from "../json/data.json";
 
 export default function Home() {
   return (
