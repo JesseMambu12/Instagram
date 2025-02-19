@@ -4,7 +4,7 @@ import { TCard } from "../interfaces/card.interfaces";
 import Image from "next/image";
 import React from "react";
 import Option from "../../public/Instagram/Three dots.svg";
-import Bookmark from "instagram/Bookmark.svg";
+import Bookmark from "../../public/instagram/Bookmark.svg";
 import Heart from "../../public/instagram/Heart.svg";
 import Comment from "../../public/instagram/Comment.svg";
 import Share from "../../public/instagram/Share.svg";
